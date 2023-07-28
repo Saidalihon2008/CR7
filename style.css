@@ -1,0 +1,382 @@
+@font-face {
+    font-family: Adidas;
+    src: url(font.txt);
+}
+
+.doda {
+    width: 1440px;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.start {
+    width: 1440px;
+    height: 40px;
+    background: url(Avisos.png) center center no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.logo {
+    width: 60px;
+    height: 35px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.alar {
+    width: 700px;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 19px;
+    font-family: 'Adidas';
+}
+
+.alar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+#a {
+    font-weight: 200;
+}
+
+.src {
+    width: 240px;
+    height: 40px;
+    background: url(Pesquisar.png) center center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 270px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.icon img {
+    width: 26px;
+    height: 25px;
+    margin-left: 45px;
+}
+
+.trade {
+    width: 100%;
+    height: 600px;
+    background: url(ci.png) center center no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.s {
+    width: 520px;
+    height: 300px;
+    font-size: 28px;
+    z-index: 10;
+    margin-top: 190px;
+    margin-left: 200px;
+}
+
+.s h2 {
+    color: #D63B2C;
+    margin-top: -5px;
+}
+
+.s h2 span {
+    color: rgb(14, 14, 14);
+}
+
+.s p {
+    color: white;
+    margin-top: -20px;
+    font-weight: 100;
+}
+
+.s h1 {
+    color: white;
+    font-size: 28px;
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.loggo {
+    width: 333px;
+    height: 178px;
+    background: url(loggo.png) center center no-repeat;
+    background-size: cover;
+    margin-left: -560px;
+    margin-top: 180px;
+}
+
+.week {
+    width: 100%;
+    height: auto;
+    margin-left: 60px;
+}
+
+.w {
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+.ww {
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+.w1 {
+    width: 300px;
+    height: 300px;
+    background: url("var2.png") center center no-repeat;
+    background-size: cover;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.w1 p {
+    margin-top: 250px;
+}
+
+.w1 img {
+    width: 26px;
+    height: 23px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.w2 {
+    width: 300px;
+    height: 300px;
+    background: url("var1.png") center center no-repeat;
+    background-size: cover;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    margin-left: 40px;
+}
+
+.w2 p {
+    margin-top: 250px;
+}
+
+.w2 img {
+    width: 26px;
+    height: 23px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.w3 {
+    width: 300px;
+    height: 300px;
+    background: url("var3.png") center center no-repeat;
+    background-size: cover;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    margin-left: 40px;
+}
+
+.w3 p {
+    margin-top: 250px;
+}
+
+.w3 img {
+    width: 26px;
+    height: 23px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.w4 {
+    width: 300px;
+    height: 300px;
+    background: url(var2.png) center center no-repeat;
+    background-size: cover;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    margin-left: 40px;
+}
+
+.w4 p {
+    margin-top: 250px;
+}
+
+.w4 img {
+    width: 26px;
+    height: 23px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.tx {
+    width: 300px;
+    height: 50px;
+    margin-left: -250px;
+    margin-top: 285px;
+}
+
+.b {
+    width: 1400px;
+    height: 600px;
+    background: url(benefit.jpg) center center no-repeat;
+    background-size: cover;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.i {
+    width: 100%;
+    height: 600px;
+    background: url(i.png) center center no-repeat;
+    background-size: cover;
+}
+
+.n {
+    width: 100%;
+    height: 600px;
+    margin-left: 40px;
+}
+
+.vi img {
+    margin-left: 30px;
+}
+
+.n h1 {
+    margin-left: 24px;
+}
+
+.f {
+    width: 100%;
+    height: 352px;
+    background: url(Footer.png) center center no-repeat;
+    background-size: cover;
+
+}
+
+@media screen and (max-width:768px) {
+    .doda{
+        width: 100%;
+        height: auto;
+    }
+    .start{
+        width: 100%;
+        height: 20px;
+    }
+    .logo{
+        width: 5%;
+        margin-left: -0.1px;
+    }
+    .navbar{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .alar{
+        width: 30%;
+        margin-left: 140px;
+    }
+    .alar a{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .src{
+        width: 50%;
+        height: 35px;
+        margin-left: -0.1px;
+    }
+    .icon{
+        width: 30%;
+        margin-left: 300px;
+        margin-top: -25px;
+    }
+    .icon img{
+        width: 15%;
+        height: 60%;
+        margin-left: -0.0001px;
+    }
+    .trade{
+        width: 100%;
+        height: 200px;
+    }
+    .s{
+        width: 40%;
+        font-size: 10px;
+        margin-top: -1px;
+        margin-left: 15px;
+    }
+    .s h1{
+        font-size: 10px;
+    }
+    .adw h2{
+        font-size: 15px;
+    }
+    .ww{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: -40px;
+    }
+    .ww div{
+        width: 70%;
+        height: 270px;
+        margin-top: 20px;
+    }
+    .ww img, h3{
+        visibility: hidden;
+    }
+    .w{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .w div{
+        width: 70%;
+        height: 270px;
+        margin-top: 20px;
+    }
+    .w img, h3{
+        visibility: hidden;
+    }
+    .b{
+        width: 100%;
+        height: 200px;
+        margin-left: -1px;
+    }
+    .i{
+        width: 100%;
+        height: 150px;
+        margin-top: 20px;
+    }
+    .n{
+        width: 100%;
+        height: auto;
+    }
+    .n img{
+        width: 40%;
+        margin: auto;
+    }
+    .f{
+        width: 100%;
+        height: 100px;
+    }
+}
